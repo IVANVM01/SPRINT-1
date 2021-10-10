@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:300');
+
 #body_index {
     font-family: system-ui;
     background: #f06d06;
@@ -94,8 +95,10 @@
 
 #formRegistro {
     height: 200px;
-    width: 100px;
-    margin: 0 auto;
+    width: 100px;   
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
 }
 
 #formRegistro label input {
@@ -109,4 +112,11 @@
 
 fieldset {
     background-color: white;
+}
+
+#btnRegistrar {
+    width: 80px;
+    position: relative;
+    left: 50%;
+    margin-left: -40px;
 }
