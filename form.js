@@ -1,4 +1,4 @@
-import { crear_registro } from './array_registros.js';
+import { crear_registro, filtrar_registro } from './array_registros.js';
 
 document.querySelector("#boton_registrar").addEventListener('click', click_registrar);
 
@@ -10,5 +10,6 @@ function click_registrar() {
     let contrasena = document.getElementById("contrasena").value;
 
     crear_registro(nombre, apellido, telefono, correo, contrasena);
+
 
 }

@@ -7,4 +7,8 @@ export function crear_registro(nombre, apellido, telefono, correo, contrasena) {
     console.log(array);
 }
 
-module.exports.crear_registro = crear_registro;
+function filtrar_registro() {
+
+}
+
+export { crear_registro, filtrar_registro };
