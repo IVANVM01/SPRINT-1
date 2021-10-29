@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="estilosformulario.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form.js" type="module"></script>
+</head>
+
+<body>
+    <form>
+        <label> Nombre </label><br> <input type="text" id="nombre"><br>
+        <label> Apellido </label><br> <input type="text" id="apellido"><br>
+        <label> Telefono </label><br> <input type="text" id="telefono"><br>
+        <label> Correo </label><br> <input type="text" id="correo"><br>
+        <label> Contrasena </label><br> <input type="text" id="contrasena">
+        <br> <br>
+        <button type="button" id="boton_registrar"> Registrar </button>
+        <br> <br>
+        <select id="selctor_ordenar">
+            <option value = "nombre"> nombre </option>
+            <option value = "apellido"> apellido </option>
+        </select>
+        <select id="selctor_filtrar">
+            <option value = "@gmail.com"> @gmail.com </option>
+            <option value = "@hotmail.com"> @hotmail.com </option>
+        </select>
+
+        <br> <br>
+        <button type="button" id="boton_ordenar"> Ordenar </button>
+        <button type="button" id="boton_filtrar"> Filtrar </button>
+
+    </form>
+</body>
+
+</html>
